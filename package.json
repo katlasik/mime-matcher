@@ -12,6 +12,10 @@
     "mimetype",
     "mime type"
   ],
+  "repository" : {
+    "type" : "git",
+     "url" : "https://github.com/katlasik/mime-matcher.git"
+  },
   "author": "Krzysztof Atlasik <krzysztof.atlasik@protonmail.com>",
   "license": "MIT",
   "devDependencies": {
