@@ -1,7 +1,6 @@
 [![Build Status](https://travis-ci.org/katlasik/mime-matcher.svg?branch=master)](https://travis-ci.org/katlasik/mime-matcher)
 [![codecov](https://codecov.io/gh/katlasik/mime-matcher/branch/master/graph/badge.svg)](https://codecov.io/gh/katlasik/mime-matcher)
 
-
 ### Motivation
 
 MimeMatcher is very simple library for checking if mime type string is in allowed range.
