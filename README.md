@@ -1,4 +1,5 @@
 [![Build Status](https://travis-ci.org/katlasik/mime-matcher.svg?branch=master)](https://travis-ci.org/katlasik/mime-matcher)
+[![codecov](https://codecov.io/gh/katlasik/mime-matcher/branch/master/graph/badge.svg)](https://codecov.io/gh/katlasik/mime-matcher)
 
 ### Motivation
 
