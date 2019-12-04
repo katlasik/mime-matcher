@@ -1,7 +1,8 @@
 declare module "mime-matcher"
 
-export function parse(a: string): ParsingResult
-export function isValid(a: string): boolean
+export function matcher(...expected: string[]): (actual: string) => boolean
+export function parse(mimeType: string): ParsingResult
+export function isValid(mimeType: string): boolean
 
 interface ParsingResult {
     isValid: boolean,
