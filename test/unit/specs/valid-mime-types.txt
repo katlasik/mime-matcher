@@ -644,3 +644,4 @@ application/zip
 multipart/x-zip
 application/octet-stream
 text/x-script.zsh
+application/epub+zip
