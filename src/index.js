@@ -1,4 +1,4 @@
-const MIME_TYPE_REGEX = /^(\*|[a-z0-9._\-]+)\/(\*|[a-z0-9._\-]+)(?:; ([a-zA-Z0-9._\-=]+))?$/
+const MIME_TYPE_REGEX = /^(\*|[a-z0-9._\-]+)\/(\*|[a-z0-9._\-\+]+)(?:; ([a-zA-Z0-9._\-=]+))?$/
 
 function createMatcher(expected) {
     if (expected === '*') {

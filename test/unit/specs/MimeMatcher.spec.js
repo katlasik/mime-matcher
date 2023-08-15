@@ -8,6 +8,12 @@ describe('MimeMatcher', () => {
     expect(matcher.match('image/jpeg')).to.be.false
   })
 
+  it('should return true for epub mime type', () => {
+    const matcher = new MimeMatcher('application/epub+zip')
+    
+    expect(matcher.match('application/epub+zip')).to.be.true
+  })
+
   it('should return true if right type', () => {
     const matcher = new MimeMatcher('image/*')
 

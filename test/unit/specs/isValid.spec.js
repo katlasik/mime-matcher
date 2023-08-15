@@ -29,7 +29,10 @@ describe('isValid', () => {
     validMimeTypes
     .split("\n")
     .forEach((mimeTypeString) => {
-      expect(isValidMime(mimeTypeString)).to.be.true
+      // Handle blank lines at end of file
+      if (mimeTypeString !== '') {
+        expect(isValidMime(mimeTypeString)).to.be.true
+      }
     })
   })
 })
